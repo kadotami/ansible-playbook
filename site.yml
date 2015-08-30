@@ -1,0 +1,7 @@
+- hosts: mybox
+  connection: local
+  user: vagrant
+  sudo: yes
+  roles:
+    - git
+#  vars_files:
